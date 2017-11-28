@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+html{
+	background: url('../images/jaguar-xe.jpg')no-repeat center center fixed;
+	background-size: cover;
+}
+
+.container {
+	max-width: 600px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px 20px;
+	border-radius: 10px;
+	margin: 50px 50px;
+	font-family: 'Open Sans', sans-serif;
+		
+}
+.container h1, p{
+	color: white;
+}
+
+.container input {
+	background-color: #DB3030;
+	padding: 10px 20px;
+	font-weight: bold;
+	color: white;
+	border: 1px solid #DB3030;
+	border-radius: 1px;
+	cursor: pointer;
+
+}
