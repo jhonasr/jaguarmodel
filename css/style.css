@@ -16,14 +16,20 @@ html{
 	padding: 20px 20px;
 	border-radius: 10px;
 	margin: 50px 50px;
-	font-family: 'Open Sans', sans-serif;
 		
 }
-.container h1, p{
+ h1 {
 	color: white;
+	font-family: 'Roboto', sans-serif;
 }
 
-.container input {
+p {
+	color: white;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+}
+
+input {
 	background-color: #DB3030;
 	padding: 10px 20px;
 	font-weight: bold;
@@ -33,3 +39,8 @@ html{
 	cursor: pointer;
 
 }
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 50px 50px;
+    width: 100%;
+  }
