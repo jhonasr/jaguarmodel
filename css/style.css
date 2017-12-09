@@ -15,9 +15,9 @@ html{
 	background-color: rgba(0,0,0,0.5);
 	padding: 20px 20px;
 	border-radius: 10px;
-	margin: 50px 50px;
-		
+	margin: 50px 50px;		
 }
+
  h1 {
 	color: white;
 	font-family: 'Roboto', sans-serif;
@@ -37,8 +37,8 @@ input {
 	border: 1px solid #DB3030;
 	border-radius: 1px;
 	cursor: pointer;
-
 }
+
 @media screen and (max-width: 600px) {
   .container {
     margin: 50px 50px;
